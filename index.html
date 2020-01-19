@@ -11,6 +11,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+	<link href="https://fonts.googleapis.com/css?family=Poppins|Shadows+Into+Light&display=swap" rel="stylesheet">
 	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	<style>
 			a.cursive {
@@ -28,9 +29,37 @@
 			img.gridImg {
 				display: block;
 				width: 100%;
+				border-radius: 20px;
 			}
 			a.btnLink {
 				border-bottom: none;
+			}
+			div.polaroid {
+  				width: 80%;
+  				background-color: white;
+  				box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.8), 0 6px 20px 0 rgba(255, 255, 255, 0.85);
+  				margin-top: 10px;
+  				margin-bottom: 25px;
+  				display: inline-block;
+			}
+
+			div.container {
+  				text-align: center;
+  				padding: 10px 10px 10px 10px ;
+			}
+
+			a.polaroid {
+				font-family: 'Shadows Into Light', cursive;
+  				font-size: 18px;
+  				text-shadow: 4px 4px 4px #aaa;
+				border: none;
+			}
+
+			a.pop {
+				font-family: 'Poppins', sans-serif;
+				font-size: 18px;
+  				text-shadow: 4px 4px 4px #aaa;
+				border: none;
 			}
 		</style>
 </head>
@@ -195,11 +224,58 @@
 		</article>
 
 		<!-- Work -->
-		<article id="work">
-			<h2 class="major">Work</h2>
-			<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-			<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-			<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+		<article id="wedding">
+			<h2 class="major">Wedding Party</h2>
+			<span class="image main"><img style="border-radius: 50px" src="images/raines/new/DSC_0011.jpg" alt="" /></span>
+			<h3 class="major">Bridesmaids</h3>
+			<div style="text-align: center">
+				<a class="polaroid">Ashly Lee - Matron of Honor</a><br/>
+				<a class="polaroid">Sydney Morris - Maid of Honor</a><br/>
+				<a class="polaroid">Mary Dann - Bridesmaid</a><br/>
+				<a class="polaroid">Lisa Braddy - Bridesmaid</a><br/>
+				<a class="polaroid">Cassie Gerry - Bridesmaid</a><br/>
+				<a class="polaroid">Savannah Watson - Bridesmaid</a><br/>
+				<a class="polaroid">Kristen Almazan - Bridesmaid</a><br/>
+				<a class="polaroid">Kelsey Leal - Bridesmaid</a><br/>
+				<a class="polaroid">Afton Lee - Junior Bridesmaid</a><br/>
+			</div>
+			<h3 class="major">Groomsmen</h3>
+			<div style="text-align: center">
+				<a class="polaroid">Andrew Leal - Best Man</a><br/>
+				<a class="polaroid">Kyle Crum - Groomsman</a><br/>
+				<a class="polaroid">Tyler Phillips - Groomsman</a><br/>
+				<a class="polaroid">Damon Baldonado - Groomsman</a><br/>
+				<a class="polaroid">Taylor Kennedy - Groomsman</a><br/>
+				<a class="polaroid">Mike Ellis - Groomsman</a><br/>
+				<a class="polaroid">Steven Martinez - Groomsman</a><br/>
+				<a class="polaroid">Spencer Smith - Groomsman</a><br/>
+				<a class="polaroid">Christopher McDaniel - Junior Groomsman</a><br/>
+			</div>
+		</article>
+
+		<!-- Event Info -->
+		<article id="event">
+			<div style="text-align: center">
+				<h2 class="major">Event Info</h2>
+				<span class="image main"><img class="popupImg" src="images/raines/new/DSC_0758_bw.jpg" alt="" /></span>
+				<h3 class="major">Wedding and Reception</h3>
+				<a class="pop">When: April 11, 2020 @ 4:00pm</a><br/>
+				<a class="pop">Where: McDaniel Residence</a><br/>
+				<a class="pop" style="padding-left: 2em">1339 Cruzero St.</a><br/>
+				<a class="pop" style="padding-left: 1em; margin-bottom: 30px">Ojai, CA 93023</a><br/>
+				<a class="pop">How: Tell your Uber or Lyft driver (parking is extremely limited and drinking and driving will not be tolerated)</a><br/>
+				<br/>
+				<a class="btnLink" href="https://goo.gl/maps/JP4VVqYZBqymsr129" target="_blank" ><button class="btn btn-sm btn-primary" type="button">Open in Google Maps</button></a><br/>
+				<hr/>
+				<h3 class="major">Accommodations</h3>
+				<div style="text-align: left">
+					<a class="pop">We have a block of rooms available at a local hotel (it's great!). When you call please tell them you are with the Raines wedding.</a><br/>
+				</div>
+				<a class="pop">Where: Chantico Inn & Suites</a><br/>
+				<a class="pop" style="padding-left: 2em">406 W Ojai Ave.</a><br/>
+				<a class="pop" style="padding-left: 1em">Ojai, CA 93023</a><br/><br/>
+				<a class="btnLink" href="https://www.chanticoinn.com/" target="_blank"><button class="btn btn-sm btn-primary" type="button">Their Website</button></a>
+			</div>
 		</article>
 
 		<!-- Gifts -->
