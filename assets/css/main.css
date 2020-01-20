@@ -1149,7 +1149,7 @@ input, select, textarea {
 			z-index: 2;
 		}
 
-        @media (min-width: 1000px) {
+        @media screen and (min-width: 1000px) {
 		    #bg:after {
                 -moz-transform: scale(1.0);
                 -webkit-transform: scale(1.0);
@@ -1159,7 +1159,7 @@ input, select, textarea {
                 -webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
                 -ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
                 transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-                background-image: url("../../images/raines/new/DSC_0885.jpg");
+                background-image: url("../../images/raines/new/DSC_0885_trim.jpg");
                 background-position: center;
                 background-size: cover;
                 background-repeat: no-repeat;
@@ -1167,7 +1167,7 @@ input, select, textarea {
 		    }
 		}
 
-		@media (max-width: 1000px) {
+		@media screen and (max-width: 1000px) {
             #bg:after {
                 -moz-transform: scale(1.0);
                 -webkit-transform: scale(1.0);
@@ -1644,7 +1644,7 @@ input, select, textarea {
 		}
 
 /* Footer */
-    @media screen and (min-width: 736px) {
+    @media (min-width: 736px) {
         #footer {
             -moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
             -webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
@@ -1656,7 +1656,7 @@ input, select, textarea {
             text-align: center;
         }
 	}
-	@media screen and (max-width: 736px) {
+	@media (max-width: 736px) {
         #footer {
             -moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
             -webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
